@@ -1,3 +1,3 @@
-# ZenPHP - Community Health Files
+# Zen.Foundation - Community Health Files
 
-This repository contains the default [community health files](https://help.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file) for the [ZenPHP](https://github.com/zenphporg) organization.
+This repository contains the default [community health files](https://help.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file) for the [Zen.Foundation](https://github.com/zenphporg) organization.

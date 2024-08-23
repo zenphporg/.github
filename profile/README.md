@@ -1,8 +1,10 @@
-# Zen PHP Application Platform
+![Zen Foundation](https://raw.githubusercontent.com/zenphporg/.github/main/img/zenphp.png)
 
-Zen is an enterprise-level PHP platform and ecosystem built on the foundations of Laravel, and designed for corporations, startups, and organizations that require a highly opinionated, structured, type-safe, and scalable application framework.
+# About Zen.Foundation & ZenPHP
 
-Our mission is to provide a powerful, enterprise-ready PHP framework that combines the simplicity and elegance of Laravel with the robustness and scalability required by large-scale organizations.
+ZenPHP is an enterprise-level PHP platform and ecosystem built on the foundations of Laravel, and designed for corporations, startups, and organizations that require a highly opinionated, structured, type-safe, and scalable application framework.
+
+Our mission at Zen.Foundation is to provide a powerful, enterprise-ready PHP framework that combines the simplicity and elegance of Laravel with the robustness and scalability required by large-scale organizations.
 
 We aim to streamline the development process, enhance code quality, and promote best practices in PHP application development.
 
