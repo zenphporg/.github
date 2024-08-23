@@ -26,8 +26,9 @@ We aim to streamline the development process, enhance code quality, and promote 
 
 The Zen ecosystem consists of the following key components:
 
-- **Lotus Framework**: The core framework that provides the foundation for building enterprise-level applications.
-- **Zen Modules**: A collection of pre-built modules that extend the functionality of the framework, covering common use cases and requirements.
+- **Lotus Framework**: The core framework that provides the foundation for building Zen applications.
+- **Zen**: The high-level application available to your developers to build your enterprise-level application.
+- **Zen Modules**: A collection of pre-built modules that extend the functionality of the Zen, covering common use cases and requirements such as app, auth, and teams.
 - **Documentation**: Comprehensive documentation and guides to help developers get started and make the most of the Zen ecosystem.
 
 ## Getting Started
