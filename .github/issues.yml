@@ -1,0 +1,36 @@
+name: issues
+
+on:
+  workflow_call:
+
+jobs:
+  user-feedback-needed:
+    if: github.event.label.name == 'user-feedback-needed'
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Add comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            Thank you for reporting this issue!
+
+            As Zen is a closed-source, commercial ecosystem, we do not accept direct code contributions via pull requests. However, we greatly appreciate your help in diagnosing and resolving issues to ensure the stability and reliability of our framework.
+
+            To assist us in addressing this issue efficiently, please provide the following information:
+
+            1. A detailed description of the issue, including the expected behavior and the actual behavior you observed.
+            2. Steps to reproduce the issue, along with any relevant code snippets or configuration details.
+            3. The version of Zen and any related modules you are using.
+            4. The environment (operating system, PHP version, database, etc.) in which the issue occurs.
+
+            Our team will review your report and work on providing a fix as soon as possible. Once a fix is available, we may reach out to you for assistance in testing the resolution to ensure it addresses the issue effectively.
+
+            If you have any additional information or insights that could help us resolve this issue more quickly, please don't hesitate to share them in this thread.
+
+            Thank you for your support and collaboration in making ZenPHP better!
+
+            Best regards,
+            Team Zen
